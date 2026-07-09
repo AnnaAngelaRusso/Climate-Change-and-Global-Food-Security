@@ -25,7 +25,53 @@ This project explores how climate indicators, natural disasters, agricultural pr
 - Summarize the main findings through interactive dashboards.
 
 ---
-## 📊 Dashboard Preview
+## 📊 Interactive Dashboard
+
+### 🌍 Climate Change Overview
+
+![Climate Overview](images/overview.png)
+
+Overview of global temperature anomalies, disaster events, economic damage and affected population between 2000 and 2024.
+
+---
+
+### 🌪 Natural Disaster Exposure
+
+![Natural Disaster Exposure](images/natural_disaster.png)
+
+Interactive map showing disaster distribution, economic damage and affected population.
+
+---
+
+### 🌾 Agricultural Production Trends
+
+![Agricultural Production](images/agricultural_production.png)
+
+Analysis of production trends, top producer countries and commodity distribution.
+
+---
+
+### 🚢 Global Food Trade Dynamics
+
+![Global Food Trade](images/global_food_trade.png)
+
+Analysis of trade value, import/export dynamics and top trading countries.
+
+---
+
+### 📈 Food Price Evolution
+
+![Food Price Evolution](images/food_price_evolution.png)
+
+Evolution of food and cereals price indices highlighting major market peaks.
+
+---
+
+### 📄 Key Findings & Conclusions
+
+![Key Findings](images/key_findings.png)
+
+Summary of the main findings derived from the analysis.
 
 ---
 
@@ -54,6 +100,8 @@ The report is organized into six interactive pages:
 
 ---
 ## 🏗 Data Model
+
+![Data Model](images/data_model.png)
 
 The report was designed using a **Star Schema** to improve scalability and simplify data analysis.
 
