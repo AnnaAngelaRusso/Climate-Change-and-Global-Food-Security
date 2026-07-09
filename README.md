@@ -3,6 +3,7 @@
 > Interactive Power BI dashboard exploring climate change, natural disasters, agricultural production, international food trade and food prices (2000–2024).
 
 ![Dashboard Cover](images/cover.png)
+
 ---
 
 ## 📖 Project Overview
@@ -25,21 +26,21 @@ This project explores how climate indicators, natural disasters, agricultural pr
 - Summarize the main findings through interactive dashboards.
 
 ---
+
 ## 📊 Interactive Dashboard
 
 ### 🌍 Climate Change Overview
 
 ![Climate Overview](images/overview.png)
 
-Overview of global temperature anomalies, disaster events, economic damage and affected population between 2000 and 2024.
-
+Provides an overview of global temperature anomalies, disaster events, economic damage and affected population between 2000 and 2024.
 ---
 
 ### 🌪 Natural Disaster Exposure
 
 ![Natural Disaster Exposure](images/natural_disaster.png)
 
-Interactive map showing disaster distribution, economic damage and affected population.
+Visualizes the geographic distribution of disaster events together with their economic and human impacts.
 
 ---
 
@@ -47,7 +48,7 @@ Interactive map showing disaster distribution, economic damage and affected popu
 
 ![Agricultural Production](images/agricultural_production.png)
 
-Analysis of production trends, top producer countries and commodity distribution.
+Explores production trends of rice, maize and wheat, highlighting the leading producer countries and commodity distribution.
 
 ---
 
@@ -55,7 +56,7 @@ Analysis of production trends, top producer countries and commodity distribution
 
 ![Global Food Trade](images/global_food_trade.png)
 
-Analysis of trade value, import/export dynamics and top trading countries.
+Analyzes international trade dynamics through import, export and total trade value across the selected commodities.
 
 ---
 
@@ -63,7 +64,7 @@ Analysis of trade value, import/export dynamics and top trading countries.
 
 ![Food Price Evolution](images/food_price_evolution.png)
 
-Evolution of food and cereals price indices highlighting major market peaks.
+Examines long-term food and cereals price indices, highlighting periods of volatility and market stabilization.
 
 ---
 
@@ -71,7 +72,7 @@ Evolution of food and cereals price indices highlighting major market peaks.
 
 ![Key Findings](images/key_findings.png)
 
-Summary of the main findings derived from the analysis.
+Summarizes the main findings and overall conclusions derived from the dashboard analysis.
 
 ---
 
@@ -101,8 +102,6 @@ The report is organized into six interactive pages:
 ---
 ## 🏗 Data Model
 
-![Data Model](images/data_model.png)
-
 The report was designed using a **Star Schema** to improve scalability and simplify data analysis.
 
 ### Dimension Tables
@@ -122,6 +121,8 @@ The report was designed using a **Star Schema** to improve scalability and simpl
 ### Measure Table
 
 - KPI
+
+![Data Model](images/data_model.png)
 
 ---
 
@@ -143,6 +144,7 @@ The report was designed using a **Star Schema** to improve scalability and simpl
 - DAX Measures
 - Interactive Dashboards
 - Cross-filtering
+- Dashboard Design
 - Data Storytelling
 
 ---
@@ -155,6 +157,7 @@ The report was designed using a **Star Schema** to improve scalability and simpl
 - Food and cereals price indices experienced significant peaks around 2008 and 2022.
 
 ---
+
 ## ⚠️ Limitations
 
 This project combines multiple public datasets to identify trends and possible relationships.
@@ -164,8 +167,8 @@ The analysis does **not establish causal relationships** between climate change 
 ---
 ## 👩‍💻 Author
 
-Anna Angela Russo
+**Anna Angela Russo**
 
 Industrial Management Engineering Graduate
 
-Supply Chain & Business Intelligence
+Interested in Supply Chain, Business Intelligence and Data Analytics.
