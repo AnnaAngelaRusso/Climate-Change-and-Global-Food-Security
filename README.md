@@ -24,6 +24,9 @@ This project explores how climate indicators, natural disasters, agricultural pr
 - Summarize the main findings through interactive dashboards.
 
 ---
+## 📊 Dashboard Preview
+
+---
 
 ## 📊 Dashboard Structure
 
@@ -49,10 +52,71 @@ The report is organized into six interactive pages:
 | FAOSTAT | Agricultural production, international trade and food price indices |
 
 ---
+## 🏗 Data Model
+
+The report was designed using a **Star Schema** to improve scalability and simplify data analysis.
+
+### Dimension Tables
+
+- DimDate
+- DimCountry
+- DimCommodity
+
+### Fact Tables
+
+- FactClimate
+- FactDisaster
+- FactProduction
+- FactFoodTrade
+- FactFoodPrices
+
+### Measure Table
+
+- KPI
+
+---
 
 ## 🛠 Technologies
 
-- Power BI
+- Power BI Desktop
 - Power Query
 - DAX
 - Microsoft Excel
+- Data Modeling
+
+---
+## 💼 Skills Demonstrated
+
+- Data Cleaning
+- Data Modeling
+- Star Schema Design
+- KPI Development
+- DAX Measures
+- Interactive Dashboards
+- Cross-filtering
+- Data Storytelling
+
+---
+## 🔍 Key Insights
+
+- Global temperature anomalies increased during the analysis period.
+- Floods and storms were the most frequent disaster types.
+- Agricultural production generally increased across the selected commodities.
+- Wheat represented the largest share of international food trade.
+- Food and cereals price indices experienced significant peaks around 2008 and 2022.
+
+---
+## ⚠️ Limitations
+
+This project combines multiple public datasets to identify trends and possible relationships.
+
+The analysis does **not establish causal relationships** between climate change and food system dynamics.
+
+---
+## 👩‍💻 Author
+
+Anna Angela Russo
+
+Industrial Management Engineering Graduate
+
+Supply Chain & Business Intelligence
