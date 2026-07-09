@@ -2,6 +2,7 @@
 
 > Interactive Power BI dashboard exploring climate change, natural disasters, agricultural production, international food trade and food prices (2000–2024).
 
+![Dashboard Cover](images/cover.png)
 ---
 
 ## 📖 Project Overview
